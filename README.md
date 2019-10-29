@@ -1,5 +1,5 @@
 # Modern
-![](./Images/Screenshoot.png)
+![](./images/Screenshoot.png)
 # Usage
 ```
 pkg update && pkg upgrade
