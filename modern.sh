@@ -124,6 +124,9 @@ fi
 
 }
 
+#checkroot
+#checktor
+#dependencies
 clearscreen
 banner
 template
