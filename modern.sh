@@ -1,5 +1,5 @@
 #!/usr/bin/bash
-# Modern Tools, Facebash, Instashell, Tweetshell
+# Modern Tools Checker Instagram, Facebook, Twitter
 # Life Of Programmer
 # Coded by Nedi Senja
 # Facebook: fb.me/akun.official.016
