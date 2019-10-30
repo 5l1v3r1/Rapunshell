@@ -93,15 +93,15 @@ printf "\n"
 read -p $'\n\e[0m[\e[0m\e[95m/\e[0m\e[0m] Select an option: \e[0;1;77m\en' option
 
 if [[ $option == 01 || $option == 1 ]]; then
-cd $HOME/modern/sites
+cd $HOME/modern/pages
 bash igchecker.sh
 
 elif [[ $option == 02 || $option == 2 ]]; then
-cd $HOME/modern/sites
+cd $HOME/modern/pages
 bash fbchecker.sh
 
 elif [[ $option == 03 || $option == 3 ]]; then
-cd $HOME/modern/sites
+cd $HOME/modern/pages
 bash twchecker.sh
 
 elif [[ $option == 00 || $option == 0 ]]; then
