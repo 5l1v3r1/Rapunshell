@@ -7,7 +7,7 @@ apt-get install git
 git clone https://github.com/thesixtynine/Modern
 cd Modern
 ls
-Bash modern.sh
+bash modern.sh
 ```
 # Paypal:
 https://www.paypal.com/cgi-bin/webscr?cmd=_s-xclick&hosted_button_id=CLKRT5QXXFJY4&source=url
