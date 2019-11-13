@@ -1,13 +1,13 @@
-# Modern
-![](./images/Screenshoot.png)
+# Screenshot
+![](./images/Screenshot.png)
 # Usage
 ```
 pkg update && pkg upgrade
 apt-get install git
-git clone https://github.com/thesixtynine/Modern
-cd Modern
+git clone https://github.com/thesixtynine/Rapunshell
+cd Rapunshell
 ls
-bash modern.sh
+bash rapunshell.sh
 ```
 # Paypal:
 https://www.paypal.com/cgi-bin/webscr?cmd=_s-xclick&hosted_button_id=CLKRT5QXXFJY4&source=url
