@@ -4,6 +4,7 @@
 ```
 pkg update && pkg upgrade
 apt-get install git
+apt-get install bash
 git clone https://github.com/thesixtynine/Rapunshell
 cd Rapunshell
 ls
