@@ -86,15 +86,15 @@ printf "\n"
 read -p $'\n\e[0m[\e[0m\e[95m/\e[0m\e[0m] \e[1;77mSelect an option: \e[0m\en' option
 
 if [[ $option == 01 || $option == 1 ]]; then
-cd $HOME/rapunshell/sites
+cd $HOME/rapunshell/pages
 bash igchecker.sh
 
 elif [[ $option == 02 || $option == 2 ]]; then
-cd $HOME/rapunshell/sites
+cd $HOME/rapunshell/pages
 bash fbchecker.sh
 
 elif [[ $option == 03 || $option == 3 ]]; then
-cd $HOME/rapunshell/sites
+cd $HOME/rapunshell/pages
 bash twchecker.sh
 
 elif [[ $option == 04 || $option == 4 ]]; then
