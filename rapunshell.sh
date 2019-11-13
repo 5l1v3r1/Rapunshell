@@ -1,7 +1,7 @@
 #!/usr/bin/bash
-# Modern Tools Checker Instagram, Facebook, Twitter
-# Coded by Senja
-# Github: github.com/thesixtynine/IndoHat
+# Rapunshell
+# Mod by The Sixty Nine
+# Github: github.com/thesixtynine/Rapunshell
 
 checkroot() {
 
@@ -57,25 +57,17 @@ banner() {
 
 printf "\n"
 printf "\n"
-printf "\e[0;32m  ███╗   ███╗ ██████╗ ██████╗ \e[0;37m███████╗██████╗ ███╗   ██╗\n\e[0m"
-printf "\e[0;32m  ████╗ ████║██╔═══██╗██╔══██╗\e[0;37m██╔════╝██╔══██╗████╗  ██║\n\e[0m"
-printf "\e[0;32m  ██╔████╔██║██║   ██║██║  ██║\e[0;37m█████╗  ██████╔╝██╔██╗ ██║\n\e[0m"
-printf "\e[0;32m  ██║╚██╔╝██║██║   ██║██║  ██║\e[0;37m██╔══╝  ██╔══██╗██║╚██╗██║\n\e[0m"
-printf "\e[0;32m  ██║ ╚═╝ ██║╚██████╔╝██████╔╝\e[0;37m███████╗██║  ██║██║ ╚████║\n\e[0m"
-printf "\e[0;32m  ╚═╝     ╚═╝ ╚═════╝ ╚═════╝ \e[0;37m╚══════╝╚═╝  ╚═╝╚═╝  ╚═══╝\n\e[0m"
-printf "\e[0;4;37m  ○● 千尺丨乇几ᗪ丂 ㄒ卄乇 Ꮆ尺卂ㄚ 卄卂ㄒ 爪ㄚ ㄒ乇卂爪 ●○\n\e[0m"
-printf "\n"
+printf "\e[0;32m        █▀▀ █▀█ █▀█ █ █ █▀█   \e[0;37m█▀▀ █ █ █▀▀ █   █  \n"
+printf "\e[0;32m        █   █▀█ █▀▀ █ █ █ █   \e[0;37m▀▀█ █▀█ █▀▀ █   █  \n"
+printf "\e[0;32m        ▀   ▀ ▀ ▀   ▀▀▀ ▀ ▀   \e[0;37m▀▀▀ ▀ ▀ ▀▀▀ ▀▀▀ ▀▀▀\n"
 printf "\n"
 
 }
 
 template() {
 
-sleep 1
-printf "\e[0m[\e[1;94m#\e[0m] \e[0mSimple The Social Tools\n\e[0m"
-sleep 1
-printf "\e[0m[\e[1;93m*\e[0m] \e[0mCoded by Senja\n\e[0"
-sleep 1
+printf "\e[0m[\e[1;94m#\e[0m] \e[0mRapun Shell The Bruteforcers\n\e[0m"
+printf "\e[0m[\e[1;93m*\e[0m] \e[0mMod by The Sixty Nine\n\e[0"
 printf "\e[0m[\e[1;96m&\e[0m] \e[0mMy Github: @thesixtynine\n\e[0m"
 sleep 1
 
@@ -87,28 +79,32 @@ printf "\n"
 printf "\e[0m[\e[1;92m1\e[0m] \e[1;77mInstagram\n"
 printf "\e[0m[\e[1;92m2\e[0m] \e[1;77mFacebook\n"
 printf "\e[0m[\e[1;92m3\e[0m] \e[1;77mTwitter\n"
+printf "\e[0m[\e[1;92m4\e[0m] \e[1;77mUsername\n"
 printf "\e[0m[\e[1;92m0\e[0m] \e[1;77mExit\n"
 printf "\n"
 
-read -p $'\n\e[0m[\e[0m\e[95m/\e[0m\e[0m] Select an option: \e[0;1;77m\en' option
+read -p $'\n\e[0m[\e[0m\e[95m/\e[0m\e[0m] \e[1;77mSelect an option: \e[0m\en' option
 
 if [[ $option == 01 || $option == 1 ]]; then
-cd $HOME/modern/pages
+cd $HOME/rapunshell/sites
 bash igchecker.sh
 
 elif [[ $option == 02 || $option == 2 ]]; then
-cd $HOME/modern/pages
+cd $HOME/rapunshell/sites
 bash fbchecker.sh
 
 elif [[ $option == 03 || $option == 3 ]]; then
-cd $HOME/modern/pages
+cd $HOME/rapunshell/sites
 bash twchecker.sh
+
+elif [[ $option == 04 || $option == 4 ]]; then
+cd $HOME/rapunshell/sites
+bash username.sh
 
 elif [[ $option == 00 || $option == 0 ]]; then
 echo
 printf "\e[0m[\e[1;91m!\e[0m] \e[0;1;77mExit the program!\n\e[0m"
 echo
-sleep 1
 exit 1
 
 else
