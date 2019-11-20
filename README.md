@@ -1,7 +1,7 @@
 ![BuiltWithLove](https://forthebadge.com/images/badges/built-with-love.svg)]()
 
 <p align="center">
-  <img src="https://raw.githubusercontent.com/DarkSecDevelopers/HiddenEye/master/content/logo.png" width="200"/>
+  <img src="https://githubu.com/DarkSecDevelopers/HiddenEye/logo.png" width="200"/>
 </a></p>
 
 <p align="center">
