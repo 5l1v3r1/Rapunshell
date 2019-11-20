@@ -1,7 +1,7 @@
 #!/usr/bin/bash
 # Rapunshell
-# Mod by The Sixty Nine
-# Github: github.com/thesixtynine/Rapunshell
+# Coded by Senja
+# Github: github.com/thedarksec/Rapunshell
 
 checkroot() {
 
@@ -67,8 +67,8 @@ printf "\n"
 template() {
 
 printf "\e[0m[\e[1;94m#\e[0m] \e[0mRapun Shell The Bruteforcers\n\e[0m"
-printf "\e[0m[\e[1;93m*\e[0m] \e[0mMod by The Sixty Nine\n\e[0"
-printf "\e[0m[\e[1;96m&\e[0m] \e[0mMy Github: @thesixtynine\n\e[0m"
+printf "\e[0m[\e[1;93m*\e[0m] \e[0mCoded by Senja\n\e[0"
+printf "\e[0m[\e[1;96m&\e[0m] \e[0mMy Github: @thedarksec\n\e[0m"
 sleep 1
 
 }
