@@ -1,8 +1,8 @@
 ![BuiltWithLove](https://forthebadge.com/images/badges/built-with-love.svg)]()
 
 <p align="center">
-  <img src="logo.png">  
-</p>
+  <img src="https://raw.githubusercontent.com/DarkSecDevelopers/HiddenEye/master/content/logo.png" width="200"/>
+</a></p>
 
 <p align="center">
       Modern Phishing Tool With Advanced Functionality 
