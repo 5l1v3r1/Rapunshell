@@ -22,7 +22,7 @@ checkroot
 installtools(){
     mkdir -p tools
     cd tools
-        printf "\e[0m[\e[1;95m!\e[0m] \e[1;77mWaiting install tools\e[0m\n"
+        printf "\e[0m[\e[1;95m!\e[0m] \e[1;77mInstalling tools\e[0m\n"
 git clone https://github.com/stepbystepexe/anonymous
 git clone https://github.com/stepbystepexe/blackhydra
 git clone https://github.com/stepbystepexe/socialfish
