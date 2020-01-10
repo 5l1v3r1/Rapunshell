@@ -1,5 +1,5 @@
 #### Screenshot:
-![](./Screenshot.png)
+![](./Screenshoot.png)
 
 #### Usage:
 ```
