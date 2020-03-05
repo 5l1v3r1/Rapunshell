@@ -1,4 +1,4 @@
-#!/usr/bin/bash
+#!/bin/bash
 # Rapunshell
 # Coded by Nedi Senja
 # Github: https://github.com/stepbystepexe/Rapunshell
@@ -64,7 +64,7 @@ menu(){
     printf "\e[0m[\e[1;92m*\e[0m] Perbarui\n"
     printf "\e[0m[\e[1;91m-\e[0m] Keluar\n"
     echo
-    read -p $'\n\e[0m[\e[0m\e[95m/\e[0m\e[0m] \e[1;77mMasukan opsi: \e[0m\en' option
+    read -p $'\n\e[0m(\e[0m\e[105;77;1m/\e[0m\e[0m) \e[1;77mMasukan opsi: \e[0m\en' option
         if [[ $option == 01 || $option == 1 ]]; then
         load
         echo
