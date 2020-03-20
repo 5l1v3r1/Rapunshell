@@ -1,5 +1,5 @@
 # Rapunshell:
-*Kumpulan tool stepbystep terbaru & terupdate*
+*Kumpulan tool ```stepbystep```terbaru & terupdate. Denngan 18 tool dibuat jadi satu biar lebih simple*
 #### Screenshot:
 ![](./Skrinsut.png)
 #### Cara Menginstall:
