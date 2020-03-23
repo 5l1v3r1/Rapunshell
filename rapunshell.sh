@@ -1,4 +1,4 @@
-#!/bin/bash
+#!/usr/bin/bash
 # Rapunshell
 # Coded by Nedi Senja
 # Github: https://github.com/stepbystepexe/Rapunshell
@@ -210,7 +210,7 @@ NB          : Manusia gax ada yang sempurna
               sama kaya tool ini.
               Silahkan laporkan kritik atau saran
               Ke - Email: d_q16x@outlook.co.id
-                 - WhatsApp: +62 8577-5433-901
+                 - WhatsApp: https://tinyurl.com/wel4alo
 
 [ \e[4mGunakan tool ini dengan bijak \e[0m]\n"
 sleep 1
