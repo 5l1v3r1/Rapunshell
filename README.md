@@ -1,5 +1,5 @@
-# RapunShell:
-*Kumpulan tool* ```stepbystep``` *terupdate & teraru 2020. Denngan 27 tool dibuat jadi satu biar lebih mudah dan simple*
+# Rapunshell:
+Kumpulan tool **```stepbystep```** terupdate & teraru 2020. Denngan 27 tool dibuat jadi satu biar lebih mudah dan simple.
 #### Screenshot:
 ![](./Skrinsut.png)
 #### Cara Menginstall:
