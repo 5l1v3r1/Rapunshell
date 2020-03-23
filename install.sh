@@ -46,58 +46,85 @@ installtools(){
     cd tools
     # Anonymous
     echo -e "\e[0m[\e[1;91m!\e[0m] \e[1;77mMenginstalll Anonymous\e[0m"
-    git clone https://github.com/stepbystepexe/anonymous
+    git clone https://github.com/stepbystepexe/Anonymous
     # BlackHydra
     echo -e "\e[0m[\e[1;92m!\e[0m] \e[1;77mMenginstalll BlackHydra\e[0m"
-    git clone https://github.com/stepbystepexe/blackhydra
+    git clone https://github.com/stepbystepexe/BlackHydra
+    # PhisingGo
+    echo -e "\e[0m[\e[1;93m!\e[0m] \e[1;77mMenginstalll PhisingGo\e[0m"
+    git clone https://github.com/stepbystepexe/PhisingGo
     # SocialFish
-    echo -e "\e[0m[\e[1;93m!\e[0m] \e[1;77mMenginstalll SocialFish\e[0m"
-    git clone https://github.com/stepbystepexe/socialfish
+    echo -e "\e[0m[\e[1;94m!\e[0m] \e[1;77mMenginstalll SocialFish\e[0m"
+    git clone https://github.com/stepbystepexe/SocialFish
+    # Stepbystep
+    echo -e "\e[0m[\e[1;95m!\e[0m] \e[1;77mMenginstalll Stepbystep\e[0m"
+    git clone https://github.com/stepbystepexe/Stepbystep
     # Torattacker
-    echo -e "\e[0m[\e[1;94m!\e[0m] \e[1;77mMenginstalll Torattacker\e[0m"
-    git clone https://github.com/stepbystepexe/torattacker
-    # Spoofing
-    echo -e "\e[0m[\e[1;95m!\e[0m] \e[1;77mMenginstalll Spoofing\e[0m"
-    git clone https://github.com/stepbystepexe/spoofing
-    # Ddosattack
-    echo -e "\e[0m[\e[1;96m!\e[0m] \e[1;77mMenginstalll Ddosattack\e[0m"
-    git clone https://github.com/stepbystepexe/ddosattack
+    echo -e "\e[0m[\e[1;96m!\e[0m] \e[1;77mMenginstalll Torattacker\e[0m"
+    git clone https://github.com/stepbystepexe/Torattacker
     # Darkroom
     echo -e "\e[0m[\e[1;91m!\e[0m] \e[1;77mMenginstalll Darkroom\e[0m"
-    git clone https://github.com/stepbystepexe/darkroom
-    # Facecracks
-    echo -e "\e[0m[\e[1;92m!\e[0m] \e[1;77mMenginstalll Facecracks\e[0m"
-    git clone https://github.com/stepbystepexe/facecracks
+    git clone https://github.com/stepbystepexe/Darkroom
+    # Facetool
+    echo -e "\e[0m[\e[1;92m!\e[0m] \e[1;77mMenginstalll Facetool\e[0m"
+    git clone https://github.com/stepbystepexe/Facetool
     # Multiface
     echo -e "\e[0m[\e[1;93m!\e[0m] \e[1;77mMenginstalll Multiface\e[0m"
-    git clone https://github.com/stepbystepexe/multiface
-    # Thefacesite
-    echo -e "\e[0m[\e[1;94m!\e[0m] \e[1;77mMenginstalll Thefacesite\e[0m"
-    git clone https://github.com/stepbystepexe/thefacesite
-    # Tebasindex
-    echo -e "\e[0m[\e[1;95m!\e[0m] \e[1;77mMenginstalll Tebasindex\e[0m"
-    git clone https://github.com/stepbystepexe/tebasindex
+    git clone https://github.com/stepbystepexe/Multiface
+    # Ddosattack
+    echo -e "\e[0m[\e[1;94m!\e[0m] \e[1;77mMenginstalll Ddosattack\e[0m"
+    git clone https://github.com/stepbystepexe/Ddosattack
+    # Spoofing
+    echo -e "\e[0m[\e[1;95m!\e[0m] \e[1;77mMenginstalll Spoofing\e[0m"
+    git clone https://github.com/stepbystepexe/Spoofing
+    # Grabspmas
+    echo -e "\e[0m[\e[1;96m!\e[0m] \e[1;77mMenginstalll Grabspams\e[0m"
+    git clone https://github.com/stepbystepexe/Grabspams
     # Spamerlife
-    echo -e "\e[0m[\e[1;96m!\e[0m] \e[1;77mMenginstalll Spamerlife\e[0m"
-    git clone https://github.com/stepbystepexe/spamerlife
+    echo -e "\e[0m[\e[1;91m!\e[0m] \e[1;77mMenginstalll Spamerlife\e[0m"
+    git clone https://github.com/stepbystepexe/Spamerlife
+    # Tebasindex
+    echo -e "\e[0m[\e[1;92m!\e[0m] \e[1;77mMenginstalll Tebasindex\e[0m"
+    git clone https://github.com/stepbystepexe/Tebasindex
+    # Thefacesite
+    echo -e "\e[0m[\e[1;93m!\e[0m] \e[1;77mMenginstalll Thefacesite\e[0m"
+    git clone https://github.com/stepbystepexe/Thefacesite
     # Exstrakey
-    echo -e "\e[0m[\e[1;91m!\e[0m] \e[1;77mMenginstalll Exstrakey\e[0m"
-    git clone https://github.com/stepbystepexe/exstrakey
-    # Calculator
-    echo -e "\e[0m[\e[1;92m!\e[0m] \e[1;77mMenginstalll Calculator\e[0m"
-    git clone https://github.com/stepbystepexe/calculator
-    # Grabspams
-    echo -e "\e[0m[\e[1;93m!\e[0m] \e[1;77mMenginstalll Grabspams\e[0m"
-    git clone https://github.com/stepbystepexe/grabspams
-    # Jadwal Sholat
-    echo -e "\e[0m[\e[1;94m!\e[0m] \e[1;77mMenginstalll Jadwal Sholat\e[0m"
-    git clone https://github.com/stepbystepexe/jdwlsholat
-    # Jam Alarm
-    echo -e "\e[0m[\e[1;95m!\e[0m] \e[1;77mMenginstalll Jam Alarm\e[0m"
-    git clone https://github.com/stepbystepexe/jamalarm
+    echo -e "\e[0m[\e[1;94m!\e[0m] \e[1;77mMenginstalll Exstrakey\e[0m"
+    git clone https://github.com/stepbystepexe/Exstrakey
     # Compilers
-    echo -e "\e[0m[\e[1;96m!\e[0m] \e[1;77mMenginstalll Compilers\e[0m"
-    git clone https://github.com/stepbystepexe/compilers
+    echo -e "\e[0m[\e[1;95m!\e[0m] \e[1;77mMenginstalll Compilers\e[0m"
+    git clone https://github.com/stepbystepexe/Compilers
+    # Calculator
+    echo -e "\e[0m[\e[1;96m!\e[0m] \e[1;77mMenginstalll Calculator\e[0m"
+    git clone https://github.com/stepbystepexe/Calculator
+    # Musicplayer
+    echo -e "\e[0m[\e[1;91m!\e[0m] \e[1;77mMenginstalll Musicplayer\e[0m"
+    git clone https://github.com/stepbystepexe/Musicplayer
+    # X-Music
+    echo -e "\e[0m[\e[1;92m!\e[0m] \e[1;77mMenginstalll X-Music\e[0m"
+    git clone https://github.com/stepbystepexe/X-Music
+    # Apkdown
+    echo -e "\e[0m[\e[1;93m!\e[0m] \e[1;77mMenginstalll Apkdown\e[0m"
+    git clone https://github.com/stepbystepexe/Apkdown
+    # Jdwlsholat
+    echo -e "\e[0m[\e[1;94m!\e[0m] \e[1;77mMenginstalll Jdwlsholat\e[0m"
+    git clone https://github.com/stepbystepexe/Jdwlsholat
+    # Jamalarm
+    echo -e "\e[0m[\e[1;95m!\e[0m] \e[1;77mMenginstalll Jamalarm\e[0m"
+    git clone https://github.com/stepbystepexe/Jamalarm
+    # Useragent
+    echo -e "\e[0m[\e[1;96m!\e[0m] \e[1;77mMenginstalll Useragent\e[0m"
+    git clone https://github.com/stepbystepexe/Useragent
+    # Quotes
+    echo -e "\e[0m[\e[1;91m!\e[0m] \e[1;77mMenginstalll Quotes\e[0m"
+    git clone https://github.com/stepbystepexe/Quotes
+    # MyBlog
+    echo -e "\e[0m[\e[1;92m!\e[0m] \e[1;77mMenginstalll MyBlog\e[0m"
+    git clone https://github.com/stepbystepexe/Myblog
+    # JavaCode
+    echo -e "\e[0m[\e[1;93m!\e[0m] \e[1;77mMenginstalll JavaCode\e[0m"
+    git clone https://github.com/stepbystepexe/JavaCode
     sleep 1
         read -p $'\n\e[0m[\e[1;97m+\e[0m] Kembali ke tool, Rapunshell [Y/n] ' opt
             if [[ $opt == 'y' || $opt == 'Y' ]]; then
