@@ -48,113 +48,161 @@ banner(){
     printf "\e[0;31m▀   ▀ \e[0;33m▀   ▀ \e[0;34m▀     \e[0;32m▀▀▀▀▀ \e[0;36m▀   ▀  \e[0;35m▀▀▀▀▀ \e[0;37m▀   ▀ ▀▀▀▀▀ ▀▀▀▀ ▀▀▀▀\n"
 }
 template(){
-    printf "\n\e[0;1;100;77;m[         RapunShell, My Github: @stepbystepexe          ]\e[0m\n"
+    printf "\n\e[0;1;100;77;m[         Rapunshell, My Github: @stepbystepexe          ]\e[0m\n"
 }
 menu(){
     printf "\n"
-    printf "\e[0m[\e[1;96;2m01\e[0m] \e[1;77mAnonymous     \e[0m[\e[1;96;2m07\e[0m] \e[1;77mDarkroom       \e[0m[\e[1;96;2m13\e[0m] \e[1;77mExstrakey\n"
-    printf "\e[0m[\e[1;96;2m02\e[0m] \e[1;77mBlackHydra    \e[0m[\e[1;96;2m08\e[0m] \e[1;77mFacecracks     \e[0m[\e[1;96;2m14\e[0m] \e[1;77mCalculator\n"
-    printf "\e[0m[\e[1;96;2m03\e[0m] \e[1;77mSocialFish    \e[0m[\e[1;96;2m09\e[0m] \e[1;77mMultiface      \e[0m[\e[1;96;2m15\e[0m] \e[1;77mGrabspams\n"
-    printf "\e[0m[\e[1;96;2m04\e[0m] \e[1;77mTorattacker   \e[0m[\e[1;96;2m10\e[0m] \e[1;77mThefacesite    \e[0m[\e[1;96;2m16\e[0m] \e[1;77mJdwl Sholat\n"
-    printf "\e[0m[\e[1;96;2m05\e[0m] \e[1;77mSpoofing      \e[0m[\e[1;96;2m11\e[0m] \e[1;77mTebasindex     \e[0m[\e[1;96;2m17\e[0m] \e[1;77mJam Alarm\n"
-    printf "\e[0m[\e[1;96;2m06\e[0m] \e[1;77mDdosattack    \e[0m[\e[1;96;2m12\e[0m] \e[1;77mSpamerlife     \e[0m[\e[1;96;2m18\e[0m] \e[1;77mCompilers\n"
+    printf "\e[0m[\e[1;96;2m01\e[0m] \e[1;77mAnonymous     \e[0m[\e[1;96;2m10\e[0m] \e[1;77mDdosattack     \e[0m[\e[1;96;2m19\e[0m] \e[1;77mMusicplayer\n"
+    printf "\e[0m[\e[1;96;2m02\e[0m] \e[1;77mBlackHydra    \e[0m[\e[1;96;2m11\e[0m] \e[1;77mSpoofing       \e[0m[\e[1;96;2m20\e[0m] \e[1;77mX-Music\n"
+    printf "\e[0m[\e[1;96;2m03\e[0m] \e[1;77mPhidingGo     \e[0m[\e[1;96;2m12\e[0m] \e[1;77mGrabspams      \e[0m[\e[1;96;2m21\e[0m] \e[1;77mApkdown\n"
+    printf "\e[0m[\e[1;96;2m04\e[0m] \e[1;77mSocialFish    \e[0m[\e[1;96;2m13\e[0m] \e[1;77mSpamerlife     \e[0m[\e[1;96;2m22\e[0m] \e[1;77mJdwlsholat\n"
+    printf "\e[0m[\e[1;96;2m05\e[0m] \e[1;77mStepbystep    \e[0m[\e[1;96;2m14\e[0m] \e[1;77mTebasindex     \e[0m[\e[1;96;2m23\e[0m] \e[1;77mJamalarm\n"
+    printf "\e[0m[\e[1;96;2m06\e[0m] \e[1;77mTorattacker   \e[0m[\e[1;96;2m15\e[0m] \e[1;77mThefacesite    \e[0m[\e[1;96;2m24\e[0m] \e[1;77mUseragent\n"
+    printf "\e[0m[\e[1;96;2m07\e[0m] \e[1;77mDarkroom      \e[0m[\e[1;96;2m16\e[0m] \e[1;77mExstrakey      \e[0m[\e[1;96;2m25\e[0m] \e[1;77mQuotes\n"
+    printf "\e[0m[\e[1;96;2m08\e[0m] \e[1;77mFacetool      \e[0m[\e[1;96;2m17\e[0m] \e[1;77mCompilers      \e[0m[\e[1;96;2m26\e[0m] \e[1;77mMyBlog\n"
+    printf "\e[0m[\e[1;96;2m09\e[0m] \e[1;77mMultiface     \e[0m[\e[1;96;2m18\e[0m] \e[1;77mCalculator     \e[0m[\e[1;96;2m27\e[0m] \e[1;77mJavaCode\n"
     echo
     printf "\e[0m[\e[1;93m&\e[0m] LISENSI\n"
     printf "\e[0m[\e[1;94m#\e[0m] Informasi\n"
     printf "\e[0m[\e[1;92m*\e[0m] Perbarui\n"
     printf "\e[0m[\e[1;91m-\e[0m] Keluar\n"
     echo
-    read -p $'\n\e[0m(\e[0m\e[105;77;1m/\e[0m\e[0m) \e[1;77mMasukan opsi: \e[0m\en' option
+    read -p $'\e[0m(\e[105;77;1m/\e[0m) \e[1;77mMasukan opsi: \e[0m\en' option
         if [[ $option == 01 || $option == 1 ]]; then
         load
         echo
-        cd tools/anonymous
-        python2 anonymous.py
+        cd tools/Anonymous
+        python3 anonymous.py
             elif [[ $option == 02 || $option == 2 ]]; then
             load
             echo
-            cd tools/blackhydra
-            python2 blackhydra.py
+            cd tools/BlackHydra
+            python3 blackhydra.py
                 elif [[ $option == 03 || $option == 3 ]]; then
                 load
                 echo
-                cd tools/socialfish
-                bash socialfish.sh
+                cd tools/PhisingGo
+                bash phisinggo.sh
                     elif [[ $option == 04 || $option == 4 ]]; then
                     load
                     echo
-                    cd tools/torattacker
+                    cd tools/SocialFish
                     bash torattack.sh
                         elif [[ $option == 05 || $option == 5 ]]; then
                         load
                         echo
-                        cd tools/spoofing
-                        python2 spoofing.py
+                        cd tools/Stepbystep
+                        bash stepbystep.sh
                     elif [[ $option == 06 || $option == 6 ]]; then
                     load
                     echo
-                    cd tools/ddosattack
-                    python2 ddosattack.py
+                    cd tools/Torattacker
+                    bash torattacker.sh
                 elif [[ $option == 07 || $option == 7 ]]; then
                 load
                 echo
-                cd tools/darkroom
+                cd tools/Darkroom
                 python2 darkroom.py
             elif [[ $option == 08 || $option == 8 ]]; then
             load
             echo
-            cd tools/facecracks
-            python2 facecracks.py
+            cd tools/Facetool
+            python2 facetool.py
         elif [[ $option == 09 || $option == 9 ]]; then
         load
         echo
-        cd tools/multiface
+        cd tools/Multiface
         python2 multiface.py
     elif [[ $option == 10 ]]; then
     load
     echo
-    cd tools/thefacesite
-    python2 thefacesite.py
+    cd tools/Ddosattack
+    python2 ddosattack.py
         elif [[ $option == 11 ]]; then
         load
         echo
-        cd tools/tebadindex
-        bash tebasindex.sh
+        cd tools/Spoofing
+        python2 spoofing.py
             elif [[ $option == 12 ]]; then
             load
             echo
-            cd tools/spamerlife
-            bash spamerlife.sh
+            cd tools/Grabspams
+            python3 grabspams.py
             elif [[ $option == 13 ]]; then
             load
             echo
-                cd tools/exstrakey
-                python2 exstrakey.py
+                cd tools/Spamerlife
+                bash spamerlife.sh
                     elif [[ $option == 14 ]]; then
                     load
                     echo
-                    cd tools/calculator
-                    python2 calculator.py
+                    cd tools/Tebasindex
+                    bash tebasindex.sh
                         elif [[ $option == 15 ]]; then
                         load
                         echo
-                        cd tools/grabspams
-                        php grabspams.php
+                        cd tools/Thefacesite
+                        python2 thetacesite.py
                     elif [[ $option == 16 ]]; then
                     load
                     echo
-                    cd tools/jdwlsholat
-                    python3 jadwlsholat.py
+                    cd tools/Exstrakey
+                    python3 exstrakey.py
                 elif [[ $option == 17 ]]; then
                 load
                 echo
-                cd tools/jamalarm
-                python3 jamalarm.py
+                cd tools/Compilers
+                python2 compilers.py
             elif [[ $option == 18 ]]; then
             load
             echo
-            cd tools/compilers
-            python2 compilers.py
+            cd tools/Calculator
+            python2 calculator.py
+        elif [[ $option == 19 ]]; then
+        load
+        echo
+        cd tools/Musicplayer
+        python3 musicplayer.py
+    elif [[ $option == 20 ]]; then
+    load
+    echo
+    cd tools/X-Music
+    python3 x-music.py
+        elif [[ $option == 21 ]]; then
+        load
+        echo
+        cd tools/Apkdown
+        python3 apkdown.py
+            elif [[ $option == 22 ]]; then
+            load
+            echo
+            cd tools/Jdwlsholat
+            python3 jdwlsholat.py
+                elif [[ $option == 23 ]]; then
+                load
+                echo
+                cd tools/Jamalarm
+                python3 jamalarm.py
+                    elif [[ $option == 24 ]]; then
+                    load
+                    echo
+                    cd tools/Useragent
+                    python3 useragent.py
+                        elif [[ $option == 25 ]]; then
+                        load
+                        echo
+                        cd tools/Quotes
+                        python quotes.py
+                    elif [[ $option == 26 ]]; then
+                    load
+                    echo
+                    cd tools/MyBlog
+                    ls
+                elif [[ $option == 27 ]]; then
+                load
+                echo
+                cd tools/JavaCode
+                ls
             elif [[ $option == '&' ]]; then
             echo
             nano LICENSE
@@ -171,7 +219,7 @@ menu(){
             echo
             git pull origin master
             echo
-            read -p $'\e[0m[\e[92m Tekan Enter \e[0m]'
+            read -p $'\e[0m[\e[32m Tekan Enter \e[0m]'
             clearscreen
             banner
             template
